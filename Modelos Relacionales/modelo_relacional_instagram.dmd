@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional_instagram" id="E2F207B8-4C69-50E5-4722-CF427FFAAC21" version="3.5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:19:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E2F207B8-4C69-50E5-4722-CF427FFAAC21</designId>
+</OSDM_Design>

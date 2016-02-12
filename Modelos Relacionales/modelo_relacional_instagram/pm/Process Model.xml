@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5F56F90A-D604-F5F3-082C-794C13F2D9F0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:19:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

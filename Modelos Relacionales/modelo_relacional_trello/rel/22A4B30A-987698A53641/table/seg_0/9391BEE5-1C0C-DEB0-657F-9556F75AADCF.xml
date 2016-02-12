@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9391BEE5-1C0C-DEB0-657F-9556F75AADCF" name="TBL_LISTAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-05 17:48:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LISTA" id="DB9EC485-C0E1-863C-0CF2-7DA554F61760">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-05 17:49:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LISTA" id="88EDFF0B-5580-6C92-0FF0-7B0E33B33BCE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-05 17:49:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="83B2F6CD-D7D3-FEE5-5D3A-5028D0BABC33">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-05 17:49:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="C467BC11-7949-51E0-5252-A1C1DACEB39F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:12:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="796E53C3-3637-5B3B-4829-243A7D7D7FD6" referredColumn="B491AD07-4EA4-2F01-4CBC-301B060DD5A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_TABLERO" id="38477CF6-E2A1-F545-FA26-BF305775FA30">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:12:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="796E53C3-3637-5B3B-4829-243A7D7D7FD6" referredColumn="355F702A-3821-C343-BEC0-85D1A0C639AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD4EB7D9-4F80-7915-163C-A67FCF492377" name="TBL_LISTAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-05 17:49:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB9EC485-C0E1-863C-0CF2-7DA554F61760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18BECA3D-936F-8874-4266-B367CB7F5CA2" name="LIS_USU_X_TAB_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:12:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C467BC11-7949-51E0-5252-A1C1DACEB39F"/>
+<colUsage columnID="38477CF6-E2A1-F545-FA26-BF305775FA30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

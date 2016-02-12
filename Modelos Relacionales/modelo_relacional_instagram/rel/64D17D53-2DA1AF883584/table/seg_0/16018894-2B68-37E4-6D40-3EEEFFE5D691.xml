@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16018894-2B68-37E4-6D40-3EEEFFE5D691" name="TBL_USUARIOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:25:33 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="C51CBFB2-24AA-2217-1A50-A48A14BD4708">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:26:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR" id="96C0279E-E3C4-4E71-3EE2-C78997C779CF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:46:41 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6238641-54F2-1B3B-CB7D-1276ED35699C" referredColumn="56325754-5E13-8FF1-A5DF-20B306030658"/>
+</associations>
+</Column>
+<Column name="CODIGO_RED_SOCIAL" id="ACB01810-802A-D862-9D36-77D8DC336B84">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:55:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C45E4B2-045D-9E9F-D6FE-139ACC4C082C" referredColumn="63344799-9DE3-B527-5511-CFECBACF741D"/>
+</associations>
+</Column>
+<Column name="USUARIO" id="ADC6F2C3-6E61-E937-32A2-ADB6E3D9CC9D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:26:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="305AECF4-2E8F-7DDA-E909-FC44462B6822">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:26:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="74113BC0-C4B6-1B55-493D-0EF2EF627ECD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:26:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA_PERFIL" id="3DC69213-B9FE-1B3B-9B9E-B1CB7E835A5B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:15:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="5D20CDFF-A01E-E183-6D22-F374F7496139">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:31:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="34021DF6-20F8-C327-3555-16289AF8E1B4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:31:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="D9F73BCC-77D5-AA4A-2DB7-F8D44F42B70B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:31:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ACTUAL" id="1D18050E-1E49-D2C5-4EC3-A96E97A3AC47">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:31:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA_ESTADO_ACTUAL" id="2EE22979-340B-682A-8A54-C3BBDDF58E12">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:15:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="F7FFB8FD-7716-908B-D946-2B6E98286B11">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:31:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFERENCIA_RED_SOCIAL" id="024FF6ED-3470-218F-CB0F-6A745B785BAB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:56:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="805D30F5-11A5-7AB3-1E37-9497CF91691C" name="TBL_USUARIOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:26:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C51CBFB2-24AA-2217-1A50-A48A14BD4708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F33FF02-075A-96FA-CE21-2981D877137C" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:46:41 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C0279E-E3C4-4E71-3EE2-C78997C779CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A259517-4878-B2C0-1728-179D62BD9260" name="TBL_USUARIOS_TBL_REDES_SOCIALES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:55:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACB01810-802A-D862-9D36-77D8DC336B84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

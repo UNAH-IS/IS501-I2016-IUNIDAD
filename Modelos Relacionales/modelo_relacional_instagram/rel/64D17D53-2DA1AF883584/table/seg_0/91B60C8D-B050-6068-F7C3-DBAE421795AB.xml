@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91B60C8D-B050-6068-F7C3-DBAE421795AB" name="TBL_FOTOGRAFIAS_COMPARTIDAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:52:28 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="57464E39-C39B-9D27-3920-B8F2AB9CCBBF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:54:27 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CC9CD76-DD08-1792-481E-718ACD5816E0" referredColumn="C51CBFB2-24AA-2217-1A50-A48A14BD4708"/>
+</associations>
+</Column>
+<Column name="CODIGO_FOTOGRAFIA" id="58390D01-855E-45E1-C92B-8FC587723568">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:54:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5824C41A-C0E2-8A7C-C820-90D585AECE5F" referredColumn="39704796-DD0D-0FD6-6756-9076AB4832AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FBE498C-8F25-CCDC-49A4-21028090BD3B" name="TBL_FOTOGRAFIAS_COMPARTIDAS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:54:27 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57464E39-C39B-9D27-3920-B8F2AB9CCBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2103EF39-20AC-C1E9-0CA8-14310E33A92A" name="TBL_FOTOGRAFIAS_COMPARTIDAS_TBL_FOTOGRAFIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:54:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58390D01-855E-45E1-C92B-8FC587723568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

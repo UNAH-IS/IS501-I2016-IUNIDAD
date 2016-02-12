@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="072B553F-8467-CF70-28C8-FE0FA0A72A89" name="TBL_USUARIOS_X_FOTOGRAFIA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:22:27 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="F834A2E3-6636-83C9-3CA3-40CB2F938386">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:23:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BD73466-17D6-9292-38D1-D43F28D69B12" referredColumn="C51CBFB2-24AA-2217-1A50-A48A14BD4708"/>
+</associations>
+</Column>
+<Column name="CODIGO_FOTOGRAFIA" id="54F6D329-20D6-5AD5-ADD0-157150A3D859">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:23:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D45A727-3C0B-E7FD-6CA7-F397A8F00C57" referredColumn="39704796-DD0D-0FD6-6756-9076AB4832AD"/>
+</associations>
+</Column>
+<Column name="COORDENADA_X" id="EBFF9F18-0D12-022E-E531-3C6D101A0403">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:48:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDENADA_Y" id="E093470A-BE20-F670-B70A-3983069B1AB8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:48:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B2F9FE2-CBD4-EE68-19A2-0B44EEC39EFC" name="TBL_ETIQUETAS_X_FOTOGRAFIA_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:23:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F834A2E3-6636-83C9-3CA3-40CB2F938386"/>
+<colUsage columnID="54F6D329-20D6-5AD5-ADD0-157150A3D859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3402CB04-8598-0784-64A7-943F8D4E23D4" name="TBL_ETIQUETAS_X_FOTOGRAFIA_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:23:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F834A2E3-6636-83C9-3CA3-40CB2F938386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9E6A157-FCB9-4404-63A5-0EA7F95FE411" name="TBL_ETIQUETAS_X_FOTOGRAFIA_TBL_FOTOGRAFIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:23:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F6D329-20D6-5AD5-ADD0-157150A3D859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

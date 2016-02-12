@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8332404-8FD0-E902-BA73-85B7A7033E50" name="TBL_TIPO_LUGAR">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:38:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="D0F13426-0B15-09BA-99B6-BC56136C9226">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:39:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LUGAR" id="F2FA3B40-AAB5-618C-6D1F-A1CE4AEDABD4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:39:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12A2E987-5086-3229-ECAE-D979DAADB9F0" name="TBL_TIPO_LUGAR_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:39:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0F13426-0B15-09BA-99B6-BC56136C9226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

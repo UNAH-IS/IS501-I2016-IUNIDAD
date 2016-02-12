@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96217227-90D7-8C80-554E-DD8BFE0530EB" name="TBL_LIKES_X_COMENTARIO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:45:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="EFBAD7A9-9CD6-C018-2781-3289F9B7EC40">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:46:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CC5EC78-732F-3E15-79DB-93AD7220F882" referredColumn="C51CBFB2-24AA-2217-1A50-A48A14BD4708"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="24F0E916-2007-04CB-8769-4B5D3239A5DD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:46:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="771FD094-2210-0E61-418C-6500A3AD93C7" referredColumn="A6434FF2-5CB0-D6C4-7BE1-27EFFD01C1BA"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_LIKE" id="BC6E8148-67A1-9AD0-85CB-4E36F7B5BFBC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:47:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="189C8587-2496-8DF3-086C-AC31F626D79B" name="TBL_LIKES_X_COMENTARIO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:46:40 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBAD7A9-9CD6-C018-2781-3289F9B7EC40"/>
+<colUsage columnID="24F0E916-2007-04CB-8769-4B5D3239A5DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7274D18F-78C7-CC41-93DD-EDB39FAFBFCC" name="TBL_LIKES_X_COMENTARIO_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:46:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBAD7A9-9CD6-C018-2781-3289F9B7EC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EA9B5CA-3F37-3543-C9FD-97FD2CAF7640" name="TBL_LIKES_X_COMENTARIO_TBL_COMENTARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:46:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F0E916-2007-04CB-8769-4B5D3239A5DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

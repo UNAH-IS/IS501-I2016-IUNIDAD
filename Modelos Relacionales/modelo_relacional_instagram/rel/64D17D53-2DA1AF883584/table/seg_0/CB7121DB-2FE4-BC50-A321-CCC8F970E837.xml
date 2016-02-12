@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB7121DB-2FE4-BC50-A321-CCC8F970E837" name="TBL_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:34:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="56325754-5E13-8FF1-A5DF-20B306030658">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:35:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="CD7301F7-7B9A-BC4A-DE2F-A10B49F61FCB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:35:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="30695A73-F8EC-A2DA-CA8D-DEE8A03B64A6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:35:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="F4F1D913-C69E-2203-550A-FEC6F5F55199">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:35:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="6C9B12DF-A5D8-5B35-E803-2BE7ED91710D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:36:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF5F1599-1824-A44C-7AF5-0B662C36925D" referredColumn="56325754-5E13-8FF1-A5DF-20B306030658"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="3FF9EFF5-657D-5318-2948-30AE6FBCD90D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:39:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48DDAD59-1C87-EEB0-58B0-E3864BEFAD39" referredColumn="D0F13426-0B15-09BA-99B6-BC56136C9226"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CBBBBE8-C17F-9F54-AF37-D9D98D5A604C" name="TBL_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:35:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56325754-5E13-8FF1-A5DF-20B306030658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5264B405-099C-C09F-6A32-8A47AF01058E" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:36:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9B12DF-A5D8-5B35-E803-2BE7ED91710D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8165F63E-AD23-442E-0198-EECA9C6886D0" name="TBL_LUGARES_TBL_TIPO_LUGAR_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:39:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF9EFF5-657D-5318-2948-30AE6FBCD90D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

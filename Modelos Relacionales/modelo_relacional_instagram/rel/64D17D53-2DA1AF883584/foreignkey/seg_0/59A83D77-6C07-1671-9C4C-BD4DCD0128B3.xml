@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59A83D77-6C07-1671-9C4C-BD4DCD0128B3" containerWithKeyObject="275D74D2-BE55-E1B9-99FC-578850A79901" localFKIndex="6779E2B5-5C3E-B4E9-4D54-B94DA032E67E" name="TBL_ETIQUETAS_X_USUARIO_TBL_COMENTARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:42:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7359E5A5-E690-56A4-EDEC-20632ADE3B69</referredTableID>
+<keyObject>F3FAEB81-7AF4-7A39-0FE9-F0B11705C7B8</keyObject>
+<referredKeyID>F3FAEB81-7AF4-7A39-0FE9-F0B11705C7B8</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

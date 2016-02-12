@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D77BCB6-9227-7C42-B4BB-7EAD22194B00" name="TBL_TIPOS_NOTIFICACIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:24:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_NOTIFICACION" id="ABA9C9BC-2556-0F03-A1AF-9ACA940026D5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:25:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_NOTIFICACION" id="4396CEC0-4056-51A1-CCCB-700226846BB9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:25:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81B21882-F221-F465-7D2C-921F08373348" name="TBL_TIPOS_NOTIFICACIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:25:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA9C9BC-2556-0F03-A1AF-9ACA940026D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

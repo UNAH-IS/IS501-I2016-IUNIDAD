@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25513829-7ABF-D3E3-6B23-AAF477943C40" name="TBL_VIDEOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:28:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="2901A6A0-70CD-F02B-C7D9-877AB9D2078D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:29:59 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F7AF7A6-56B8-F716-752D-4B4EB16F68C5" referredColumn="39704796-DD0D-0FD6-6756-9076AB4832AD"/>
+</associations>
+</Column>
+<Column name="DURACION_SEGUNDOS" id="824A77C9-2268-CE0A-2827-BC9340AD9DD2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:29:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOLUCION" id="9062B252-844C-D2D8-623C-6BFE66DC92DC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:29:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="121636E7-B2FA-1045-B065-7A93CDED9452" name="TBL_VIDEOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:30:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2901A6A0-70CD-F02B-C7D9-877AB9D2078D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9BDAC50-D699-B372-5182-3448A62AD032" name="TBL_VIDEOS_TBL_FOTOGRAFIAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-10 17:29:59 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2901A6A0-70CD-F02B-C7D9-877AB9D2078D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

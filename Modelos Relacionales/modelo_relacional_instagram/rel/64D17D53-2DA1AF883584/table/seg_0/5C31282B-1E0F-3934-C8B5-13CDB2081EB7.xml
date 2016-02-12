@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C31282B-1E0F-3934-C8B5-13CDB2081EB7" name="TBL_HISTORICO_ESTADOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:49:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO" id="695C7C1E-C9CC-E3D3-BF68-73E18EAE443C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:50:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="3E929FB1-1014-5E87-D7AF-B159F1E336CD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:50:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30A8A423-44C0-2C2E-E574-91D070C083C9" referredColumn="C51CBFB2-24AA-2217-1A50-A48A14BD4708"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="B9DEC73E-8B5E-E9BE-5B86-2A8DD7E91335">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:50:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_ESTADO" id="2C794E00-DB82-2E54-A7E7-9BD099799C1F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:50:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA" id="14952E67-2FB7-05BA-F9F1-B1D08E4B6BF7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-09 17:14:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87A42B39-8C8B-9032-24C5-03EF24AC3161" name="TBL_HISTORICO_ESTADOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:51:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="695C7C1E-C9CC-E3D3-BF68-73E18EAE443C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0383037-0ED0-FA6E-5B04-4E1DF1419141" name="TBL_HISTORICO_ESTADOS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-08 17:50:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E929FB1-1014-5E87-D7AF-B159F1E336CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
