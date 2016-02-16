@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:45:35 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -56,7 +57,7 @@
 <colUsage columnID="24F0E916-2007-04CB-8769-4B5D3239A5DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7274D18F-78C7-CC41-93DD-EDB39FAFBFCC" name="TBL_LIKES_X_COMENTARIO_TBL_USUARIOS_FK">
+<ind_PK_UK id="7274D18F-78C7-CC41-93DD-EDB39FAFBFCC" name="LIKES_X_COMENT_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:46:11 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -66,7 +67,7 @@
 <colUsage columnID="EFBAD7A9-9CD6-C018-2781-3289F9B7EC40"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2EA9B5CA-3F37-3543-C9FD-97FD2CAF7640" name="TBL_LIKES_X_COMENTARIO_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="2EA9B5CA-3F37-3543-C9FD-97FD2CAF7640" name="LIKES_X_COMENT_COMENT_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:46:17 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

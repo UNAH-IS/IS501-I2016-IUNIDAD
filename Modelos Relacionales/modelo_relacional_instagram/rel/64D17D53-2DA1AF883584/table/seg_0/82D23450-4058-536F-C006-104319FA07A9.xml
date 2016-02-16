@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:16:32 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -55,7 +56,7 @@
 <colUsage columnID="39C60704-2290-DB04-3119-9EEC33F82B1C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F474479F-D398-3988-2F59-81A8C6D685C3" name="TBL_SEGUIDORES_TBL_USUARIOS_FK">
+<ind_PK_UK id="F474479F-D398-3988-2F59-81A8C6D685C3" name="SEGUIDORES_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:17:37 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -65,7 +66,7 @@
 <colUsage columnID="1384FC2A-921F-0A9F-5EE5-FCD57D6D1E45"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DE05797B-CF87-8E84-E690-6D7F9D2C761D" name="TBL_SEGUIDORES_TBL_USUARIOS_FKv1">
+<ind_PK_UK id="DE05797B-CF87-8E84-E690-6D7F9D2C761D" name="SEGUIDORES_USUARIOS_FKv1">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:17:44 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

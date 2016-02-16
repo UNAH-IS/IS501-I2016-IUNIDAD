@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_USUARIOS_X_FOTOGRAFIA" directorySegmentName="seg_0" id="072B553F-8467-CF70-28C8-FE0FA0A72A89">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_FOTOGRAFIA" id="54F6D329-20D6-5AD5-ADD0-157150A3D859">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COORDENADA_Y" id="E093470A-BE20-F670-B70A-3983069B1AB8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COORDENADA_X" id="EBFF9F18-0D12-022E-E531-3C6D101A0403">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_USUARIO" id="F834A2E3-6636-83C9-3CA3-40CB2F938386">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ETIQ_X_FOTO_USU_FK" id="3402CB04-8598-0784-64A7-943F8D4E23D4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ETIQ_X_FOTO_FOT_FK" id="B9E6A157-FCB9-4404-63A5-0EA7F95FE411">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_ETIQUETAS_X_FOTOGRAFIA_PK" id="4B2F9FE2-CBD4-EE68-19A2-0B44EEC39EFC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

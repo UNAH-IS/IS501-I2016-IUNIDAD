@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:18:08 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -114,7 +115,7 @@
 <colUsage columnID="39704796-DD0D-0FD6-6756-9076AB4832AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="77AE8C25-2F4A-E0F4-ED64-D3E0F7988B32" name="TBL_FOTOGRAFIAS_TBL_USUARIOS_FK">
+<ind_PK_UK id="77AE8C25-2F4A-E0F4-ED64-D3E0F7988B32" name="FOTO_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:21:27 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -124,7 +125,7 @@
 <colUsage columnID="57752197-234B-EDC2-212E-3B37997DCC91"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="236508EA-09D8-32D8-4627-882B8ABD7E71" name="TBL_FOTOGRAFIAS_TBL_LUGARES_FK">
+<ind_PK_UK id="236508EA-09D8-32D8-4627-882B8ABD7E71" name="FOTO_LUGARES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:32:24 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

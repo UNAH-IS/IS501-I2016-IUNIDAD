@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_VIDEOS" directorySegmentName="seg_0" id="25513829-7ABF-D3E3-6B23-AAF477943C40">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_VIDEO" id="2901A6A0-70CD-F02B-C7D9-877AB9D2078D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION_SEGUNDOS" id="824A77C9-2268-CE0A-2827-BC9340AD9DD2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESOLUCION" id="9062B252-844C-D2D8-623C-6BFE66DC92DC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VIDEOS_FOTOGRAFIAS_FK" id="E9BDAC50-D699-B372-5182-3448A62AD032">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_VIDEOS_PK" id="121636E7-B2FA-1045-B065-7A93CDED9452">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

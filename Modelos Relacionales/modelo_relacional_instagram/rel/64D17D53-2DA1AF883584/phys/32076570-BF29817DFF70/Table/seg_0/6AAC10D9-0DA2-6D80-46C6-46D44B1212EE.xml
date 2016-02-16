@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_FOTOGRAFIAS" directorySegmentName="seg_0" id="6AAC10D9-0DA2-6D80-46C6-46D44B1212EE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HASHTAGS" id="149F0631-5DCD-B4D6-4E48-12638B818F37">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_FOTOGRAFIA" id="39704796-DD0D-0FD6-6756-9076AB4832AD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_USUARIO" id="57752197-234B-EDC2-212E-3B37997DCC91">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_SUBIDA" id="5D070B15-EE58-FB2C-8D59-7476CF9009EE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE" id="6822B553-7A34-E056-5410-7F015BDA3FBA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_LUGAR" id="9350BAE4-6F8F-D491-550A-4D988E31B34A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LATITUD" id="97ED1162-2A9F-4A5E-4E66-86605DF0A851">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOTOGRAFIA" id="A45B0131-B05C-AD35-79B2-0D7D9ED84254">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUD" id="EA483A81-1B74-02F9-6E2E-2D1D417C9B09">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FOTO_LUGARES_FK" id="236508EA-09D8-32D8-4627-882B8ABD7E71">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FOTO_USUARIOS_FK" id="77AE8C25-2F4A-E0F4-ED64-D3E0F7988B32">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_FOTOGRAFIAS_PK" id="AE056110-EB2D-023F-CEDE-6EFDD55BB6FE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

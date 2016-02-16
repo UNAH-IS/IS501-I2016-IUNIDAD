@@ -3,6 +3,13 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-08 17:20:02 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Conexion Instagram</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521:xe</connUrl>
+<connUser>INSTAGRAM</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
 </relationalModel>

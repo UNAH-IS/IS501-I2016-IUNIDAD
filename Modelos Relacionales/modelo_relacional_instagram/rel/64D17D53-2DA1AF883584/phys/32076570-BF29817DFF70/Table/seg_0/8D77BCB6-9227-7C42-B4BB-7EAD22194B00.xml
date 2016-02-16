@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_TIPOS_NOTIFICACIONES" directorySegmentName="seg_0" id="8D77BCB6-9227-7C42-B4BB-7EAD22194B00">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO_NOTIFICACION" id="4396CEC0-4056-51A1-CCCB-700226846BB9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_TIPO_NOTIFICACION" id="ABA9C9BC-2556-0F03-A1AF-9ACA940026D5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_TIPOS_NOTIFICACIONES_PK" id="81B21882-F221-F465-7D2C-921F08373348">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2016-02-11 17:22:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

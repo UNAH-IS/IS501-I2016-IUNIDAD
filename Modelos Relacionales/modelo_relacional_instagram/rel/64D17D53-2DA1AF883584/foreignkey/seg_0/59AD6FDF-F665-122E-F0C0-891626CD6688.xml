@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59AD6FDF-F665-122E-F0C0-891626CD6688" containerWithKeyObject="82D23450-4058-536F-C006-104319FA07A9" localFKIndex="DE05797B-CF87-8E84-E690-6D7F9D2C761D" name="TBL_SEGUIDORES_TBL_USUARIOS_FKv1">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59AD6FDF-F665-122E-F0C0-891626CD6688" containerWithKeyObject="82D23450-4058-536F-C006-104319FA07A9" localFKIndex="DE05797B-CF87-8E84-E690-6D7F9D2C761D" name="SEGUIDORES_USUARIOS_FKv1">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:17:44 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

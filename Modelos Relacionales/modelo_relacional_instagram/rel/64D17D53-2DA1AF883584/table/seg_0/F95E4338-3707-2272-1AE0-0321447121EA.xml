@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:21:29 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -106,7 +107,7 @@
 <colUsage columnID="017E35F4-052A-976B-1A6F-5A41268F5BD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C99B3CAF-1162-BB70-0E47-252E4D183729" name="NOTIFICACIONES_TBL_USUARIOS_FK">
+<ind_PK_UK id="C99B3CAF-1162-BB70-0E47-252E4D183729" name="NOTIF_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:24:08 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -116,7 +117,7 @@
 <colUsage columnID="3E95914F-F577-1B62-919C-7E2745CBE183"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CEC3E020-91C7-FB3F-4C31-DD1B01694C6A" name="TBL_NOTIFICACIONES_TBL_USUARIOS_FK">
+<ind_PK_UK id="CEC3E020-91C7-FB3F-4C31-DD1B01694C6A" name="NOTIFICACIONES_USUARIOS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:24:24 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -126,7 +127,7 @@
 <colUsage columnID="0EA6220C-E8C1-8CBB-06DA-0AC2AB9626B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9F3413F8-36A8-2065-D302-6EF6DEB683C6" name="TBL_NOTIFICACIONES_TBL_TIPOS_NOTIFICACIONES_FK">
+<ind_PK_UK id="9F3413F8-36A8-2065-D302-6EF6DEB683C6" name="NOTIF_TIPOS_NOTIF_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-10 17:25:43 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

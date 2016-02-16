@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="072B553F-8467-CF70-28C8-FE0FA0A72A89" name="TBL_USUARIOS_X_FOTOGRAFIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="16018894-2B68-37E4-6D40-3EEEFFE5D691" name="TBL_USUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="25513829-7ABF-D3E3-6B23-AAF477943C40" name="TBL_VIDEOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="275D74D2-BE55-E1B9-99FC-578850A79901" name="TBL_ETIQUETAS_X_USUARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C31282B-1E0F-3934-C8B5-13CDB2081EB7" name="TBL_HISTORICO_ESTADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6AAC10D9-0DA2-6D80-46C6-46D44B1212EE" name="TBL_FOTOGRAFIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6ABF18AE-17C3-B9DD-786B-0ABF162D01B1" name="TBL_REDES_SOCIALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="7359E5A5-E690-56A4-EDEC-20632ADE3B69" name="TBL_COMENTARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="78AEB041-D969-25D5-AF4B-E23B6D526DC4" name="TBL_LIKES_X_FOTOGRAFIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="82D23450-4058-536F-C006-104319FA07A9" name="TBL_SEGUIDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D77BCB6-9227-7C42-B4BB-7EAD22194B00" name="TBL_TIPOS_NOTIFICACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="91B60C8D-B050-6068-F7C3-DBAE421795AB" name="TBL_FOTOGRAFIAS_COMPARTIDAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="96217227-90D7-8C80-554E-DD8BFE0530EB" name="TBL_LIKES_X_COMENTARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB7121DB-2FE4-BC50-A321-CCC8F970E837" name="TBL_LUGARES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F8332404-8FD0-E902-BA73-85B7A7033E50" name="TBL_TIPO_LUGAR" seqName="seg_0"/>
+   <object objectType="Table" objectID="F95E4338-3707-2272-1AE0-0321447121EA" name="TBL_NOTIFICACIONES" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

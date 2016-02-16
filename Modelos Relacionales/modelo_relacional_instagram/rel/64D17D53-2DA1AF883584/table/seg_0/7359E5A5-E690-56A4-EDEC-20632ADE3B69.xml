@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:34:20 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -99,7 +100,7 @@
 <colUsage columnID="A6434FF2-5CB0-D6C4-7BE1-27EFFD01C1BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EA0B16D8-E23E-8068-5B73-9F191E12D077" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<ind_PK_UK id="EA0B16D8-E23E-8068-5B73-9F191E12D077" name="COMENTARIOS_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:36:44 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -109,7 +110,7 @@
 <colUsage columnID="C418B470-A8E1-3DE9-C362-C2A3A4CE0919"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2EDE18C8-16A2-05A4-6271-0CD3248ED8B8" name="TBL_COMENTARIOS_TBL_FOTOGRAFIAS_FK">
+<ind_PK_UK id="2EDE18C8-16A2-05A4-6271-0CD3248ED8B8" name="COMENT_FOTO_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:37:45 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -119,7 +120,7 @@
 <colUsage columnID="1A0D1F50-80B1-DFD1-BB41-017F1CB9B033"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ED8B3F0C-D467-C3ED-0E5A-D35EF464224C" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="ED8B3F0C-D467-C3ED-0E5A-D35EF464224C" name="COMENT_COMENT_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:38:54 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

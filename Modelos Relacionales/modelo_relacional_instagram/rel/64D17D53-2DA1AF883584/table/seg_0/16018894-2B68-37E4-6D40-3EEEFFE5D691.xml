@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-08 17:25:33 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -175,7 +176,7 @@
 <colUsage columnID="96C0279E-E3C4-4E71-3EE2-C78997C779CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0A259517-4878-B2C0-1728-179D62BD9260" name="TBL_USUARIOS_TBL_REDES_SOCIALES_FK">
+<ind_PK_UK id="0A259517-4878-B2C0-1728-179D62BD9260" name="USUARIOS_REDES_SOCIALES_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-08 17:55:12 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

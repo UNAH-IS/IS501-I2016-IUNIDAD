@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:22:27 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -66,7 +67,7 @@
 <colUsage columnID="54F6D329-20D6-5AD5-ADD0-157150A3D859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3402CB04-8598-0784-64A7-943F8D4E23D4" name="TBL_ETIQUETAS_X_FOTOGRAFIA_TBL_USUARIOS_FK">
+<ind_PK_UK id="3402CB04-8598-0784-64A7-943F8D4E23D4" name="ETIQ_X_FOTO_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:23:07 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -76,7 +77,7 @@
 <colUsage columnID="F834A2E3-6636-83C9-3CA3-40CB2F938386"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B9E6A157-FCB9-4404-63A5-0EA7F95FE411" name="TBL_ETIQUETAS_X_FOTOGRAFIA_TBL_FOTOGRAFIAS_FK">
+<ind_PK_UK id="B9E6A157-FCB9-4404-63A5-0EA7F95FE411" name="ETIQ_X_FOTO_FOT_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:23:13 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>

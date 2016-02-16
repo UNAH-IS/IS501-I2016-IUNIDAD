@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:52:28 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
+<schemaObject>FD7DEE71-18A7-C8FA-6D28-AB5E7A1A99C5</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -34,7 +35,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5FBE498C-8F25-CCDC-49A4-21028090BD3B" name="TBL_FOTOGRAFIAS_COMPARTIDAS_TBL_USUARIOS_FK">
+<ind_PK_UK id="5FBE498C-8F25-CCDC-49A4-21028090BD3B" name="FOTO_COMPARTIDAS_USU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:54:27 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
@@ -44,7 +45,7 @@
 <colUsage columnID="57464E39-C39B-9D27-3920-B8F2AB9CCBBF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2103EF39-20AC-C1E9-0CA8-14310E33A92A" name="TBL_FOTOGRAFIAS_COMPARTIDAS_TBL_FOTOGRAFIAS_FK">
+<ind_PK_UK id="2103EF39-20AC-C1E9-0CA8-14310E33A92A" name="FOTO_COMPARTIDAS_FOTO_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2016-02-09 17:54:36 UTC</createdTime>
 <ownerDesignName>modelo_relacional_instagram</ownerDesignName>
